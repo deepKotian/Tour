@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Roboto&display=swap" rel="stylesheet">
+    <title>Dubai</title>
+    <style>
+       body{
+          font-family:Montserrat ;
+       }
+       .container {
+        position: relative;
+        width: 300px;
+        margin: 32px
+      
+      }
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 25px;
+      }
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #008CBA;
+        text-align: center;
+        border-radius: 25px;
+      }
+      
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      
+      .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;}
+      
+      
+        .scrolling-wrapper {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;}
+      
+        .card {
+          display: inline-block;
+        }
+      
+        .scroll1{
+            padding-left: 150px;
+            border-radius: 15px;
+        }
+
+        h1,h2{
+            margin-left:30px;
+            background-color:bisque;
+            width: 600px;
+            padding: 2px
+        }
+    </style>
+</head>
+<body>
+   <div id="navbar">
+      <ul>
+         <li ><a href="main.html"><img href="images/Logo.png"></a></li>
+         <li><a href="main.html">Home</a></li>
+         <li><a href="history.html">History</a></li>
+         <li><a href="place.html">Places To Visit</a></li>
+         <li><a href="hotel.html">Hotels</a></li>
+         <li><a href="AboutUs1.html">About Us</a></li>
+      </ul>
+      
+    </div>
+   <!-- <nav>
+      <center>
+         <ul>
+      
+            <li><a class="active" href="maint.html">Home</a></li>
+            <li><a href="#news">History</a></li>
+            <li><a href="#contact">Places to Visit</a></li>
+            <li><a href="#about">Accommodations</a></li>
+        
+          </ul>
+      </center>
+   
+   </nav> -->
+   <div>
+      <img style="width:100%;height:800px"src="images/Dubai.jpg" alt="Italian Trulli">
+   </div>
+   <h1 >Places to Visit While You Are In Dubai</h1>
+
+    <h2 >Featured</h2>
+    <table>
+        <tr>
+            <td class="container">
+                <img src="images3/burjkhalifa.jpg" alt="Burj Khalifa" width="300" height="300" style="border-radius: 25px;">
+                <h2>Burj Khalifa</h2>
+                <div class="overlay">
+                    <p>
+                        <a href="https://www.thrillophilia.com/tours/burj-khalifa-sky-tickets">The Burj Khalifa (/ˈbɜːrdʒ kəˈliːfə/; Arabic: برج خليفة‎, Arabic pronunciation: [bʊrd͡ʒ xaˈliːfa], 'Khalifa Tower'), known as the Burj Dubai prior to its inauguration in 2010, is a skyscraper in Dubai, United Arab Emirates. With a total height of 829.8 m (2,722 ft, just over half a mile) and a roof height (excluding antenna, but including a 244 m spire[2]) of 828 m (2,717 ft), the Burj Khalifa has been the tallest structure and building in the world since its topping out in 2009, supplanting Taipei 101, the previous holder of that status.</a></p></div>
+                </td>
+            <td class="container">
+                <img src="images3/dubaimall.png" alt="Dubai mall" width="300" height="300" style="border-radius: 25px;">
+                <h2>Dubai mall</h2>
+                <div class="overlay">
+                    <p>
+                        The Dubai Mall (Arabic: دبي مول‎ "Dubai Mall") is a shopping mall in Dubai. It is the largest mall in the world by total land area, and the 26th-largest shopping mall in the world by gross leasable area, tying with West Edmonton Mall and Fashion Island (Thailand)—both of which are older than it. It has a total retail floor area of 502,000 square metres (5,400,000 sq ft). Located in Dubai, United Arab Emirates, it is part of the 20-billion-dollar Downtown complex (called Downtown Dubai) adjacent to the iconic Burj Khalifa, and includes over 1,200 shops.[1][2][3] In 2011, it was the most visited building on the planet, attracting over 54 million visitors each year.</p></div>
+                </td>
+            <td class="container">
+                <img src="images3/desertsafari.webp" alt="Desert Safari" width="300" height="300" style="border-radius: 25px;">
+                <h2>Desert Safari</h2>
+                <div class="overlay"> 
+                   <a href="https://www.thrillophilia.com/tours/dubai-desert-safari-evening"> Desert Safari in Dubai is an uttermost experience that will give you an adrenaline rush soon as you hit the sands with a car having full potential in terms of torque and power. This adrenaline-inducing adventure is pumped up with an extensive range of activities like shisha smoking, Belly dance show, Tanura show, and Fire show</a></div>
+                </td>
+            <td class="container">
+                <img src="images3/glowgarden.jpg" alt="Glow Garden" width="300" height="300" style="border-radius: 25px;">
+                <h2> Glow Garden</h2>
+                <div class= "overlay">
+                    <p>
+                      <a href="https://www.thrillophilia.com/tours/dubai-garden-glow-tickets">  Dubai's most famous family-friendly and the world's largest theme park has returned with an all new range of thrilling attractions and concepts that have never before been explored in Dubai. Your ticket to Dubai Garden Glow opens the doors to three distinct activity zones: The Art Park, the Dinosaur Park, and the Garden Glow, each of them with unique attractions and adventures for people of all ages to enjoy.</a></p></div>
+                </td>
+        </tr>
+        
+        <tr>
+            <td class="container">
+                <img src="images3/hotairballon.jpg" alt="Hot air balloon" width="300" height="300" style="border-radius: 25px;">
+                <h2>Hot Air Balloon</h2>
+                <div class="overlay">
+                    <p>
+                        The Burj Khalifa (/ˈbɜːrdʒ kəˈliːfə/; Arabic: برج خليفة‎, Arabic pronunciation: [bʊrd͡ʒ xaˈliːfa], 'Khalifa Tower'), known as the Burj Dubai prior to its inauguration in 2010, is a skyscraper in Dubai, United Arab Emirates. With a total height of 829.8 m (2,722 ft, just over half a mile) and a roof height (excluding antenna, but including a 244 m spire[2]) of 828 m (2,717 ft), the Burj Khalifa has been the tallest structure and building in the world since its topping out in 2009, supplanting Taipei 101, the previous holder of that status.</p></div>
+                </td>
+            <td class="container"> 
+                <img src="images3/marina.jpg" alt="Dubai Marina" width="300" height="300" style="border-radius: 25px;">
+                <h2>Dubai Marina</h2>
+                <div class="overlay">
+                    <p>Nestled in the region popularly known as 'New Dubai', Dubai Marina is a conceptualized man-made canal city. It offers luxurious lifestyles through its exquisite waterfront development along the Persian Gulf shoreline. There are classy hotels and upscale shopping and other leisure options here. It also contains the Dubai Marina Mall Complex, a shopping and entertainment destination.</p>
+                </td>
+            <td class="container">
+                <img src="images3/aqua.jpg" alt="Aquarium" width="300" height="300" style="border-radius: 25px;">
+                <h2>Dubai Aquarium 
+                </h2>
+                <div class="overlay"> 
+                  <a href="https://www.thrillophilia.com/tours/dubai-aquarium-underwater-zoo-tour">  Located on the ground floor of the Dubai Mall, the Dubai Aquarium & Underwater Zoo houses over 33,000 marine life occupying the 10 million litres of water within the tank. A unique underwater zoo occupies the level above the tank showcasing a plethora of underwater life that can be found inhabiting the oceans, rivers and other water bodies across the planet.</a></div>                </td>
+            <td class="container">
+                <img src="images3/palm.jpg" alt="Palm" width="300" height="300" style="border-radius: 25px;">
+                <h2> Palm Jumeirah</h2>
+                <div class= "overlay">
+                    <p>
+                        Palm Jumeirah, Dubai's magnificent artificial archipelago, is the epitome of beauty created by land reclamation, extending into the Persian Gulf. The archipelago resembles a palm tree with a circle when you take an overhead view of it. It was one of the first major tourism projects in the UAE and currently houses some of Dubai’s top tourist destinations like Atlantis, the Palm, Aquaventure Waterpark and the Lost Chambers Aquarium.</p>                </td>
+        </tr>
+        
+    </table>
+    <div>
+        <h1>
+            More Places to Visit 
+        </h1>
+    </div>
+    <table class="scroll1">
+        <tr>
+            <td class="container" style="border-radius: 10px;">
+                <img src="images3/village.jpg"  alt="Village" width="200px" height="200px">
+                <div class="overlay" style="text-align: center;" >Global Village</div>
+            </td>
+            <td class="container">
+                <img src="images3/dolphin.jpg" alt="Dolphin" width="200px" height="200px">
+                <div class="overlay" style="text-align: center;" >Dubai Dolphinarium</div>
+            </td>
+            <td class="container">
+                <img src="images3/fountain.jpg" alt="Dolphin" width="200px" height="200px">
+                <div class="overlay" style="text-align: center;" >Dubai Fountain</div>
+            </td>
+            <td class="container">
+                <img src="images3/aquaventure.jpg" alt="Dolphin" width="200px" height="200px">
+                <div class="overlay" style="text-align: center;" >Aquaventure Waterpark</div>
+            </td>
+            <td class="container">
+                <img src="images3/frame.jpg" alt="Dolphin" width="200px" height="200px">
+                <div class="overlay" style="text-align: center;" >Dubai Frame</div>
+
+            </td>
+            <td class="container">
+                <img src="images3/ski.jpg" alt="Dolphin" width="200px" height="200px">
+                <div class="overlay" style="text-align: center;" >Ski Dubai</div>
+
+            </td>
+        </tr>
+        
+    </table>
+  
+
+
+    
+       
+  
+   
+   
+   <div class="footer-basic">
+      <footer>
+          <div class="social"><a href="https://www.instagram.com/dubai/?hl=en"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/visitdubai?lang=en"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/visitdubai.IN/?brand_redir=517762121588320"><i class="icon ion-social-facebook"></i></a></div>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="main.html">Home</a></li>
+              <li class="list-inline-item"><a href="history.html">History</a></li>
+              <li class="list-inline-item"><a href="AboutUs1.html">About Us</a></li>
+                
+          </ul>
+          <p class="copyright">Dubai ©2021</p>
+      </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    
+       
+   <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>    
+
+    
+</body>
+</html>

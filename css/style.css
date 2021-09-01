@@ -1,0 +1,183 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-image: url(marina.jpg);
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    
+}
+
+h1{
+    display: inline-block;
+    font-size: 260px;
+    
+}
+
+.himg{
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+ .himg:hover{
+        opacity: 0.6;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: bold;
+    color:#0071c2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.h1-1{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    padding-left: 5px;
+}
+
+.h1-1 p{
+    width: 400px;
+}
+
+button{
+    font-size: 30px;
+    color: white;
+    background-color:#0071c2;
+    border-radius: 5px;
+    
+}
+
+button:hover {
+    background-color: #c25100;
+}
+
+
+.hotel2{
+    border: 1px solid black;
+    width: 400px;
+    height: 430px;
+    border-radius: 5px;
+    display: inline-block;
+    margin:23px
+}
+
+.himg2{
+    width:275px;
+    height: 183px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.himg2:hover{
+    opacity: 0.6;
+}
+
+.himg3{
+    width:275px;
+    height: 183px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.himg3:hover{
+    opacity: 0.6;
+}
+
+.himg4{
+    width:275px;
+    height: 183px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.himg4:hover{
+    opacity: 0.6;
+}
+
+.himg5{
+    width:275px;
+    height: 183px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.himg5:hover{
+    opacity: 0.6;
+}
+.himg6{
+    width:275px;
+    height: 183px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.himg6:hover{
+    opacity: 0.6;
+}
+
+.himg7{
+    width:275px;
+    height: 183px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.himg7:hover{
+    opacity: 0.6;
+}
+.himg8{
+    width:275px;
+    height: 183px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.himg8:hover{
+    opacity: 0.6;
+}
+
+
+.himg9{
+    width:275px;
+    height: 183px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.himg9:hover{
+    opacity: 0.6;
+}
